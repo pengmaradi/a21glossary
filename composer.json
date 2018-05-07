@@ -9,5 +9,10 @@
     },
     "replace": {
         "svewap/a21glossary": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+            "A21Glossary\\A21Glossary\\": "Classes/"
+        }
     }
 }
